@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>restaurent</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-dark">
+            <div class="container-fluid">
+              <a class="navbar-brand text-white" href="#"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRrP9DoaMR60JlpWXk3pPxsQ-TrGfqTTA1BsA&usqp=CAU" alt="logo"></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Dropdown
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                  </li>
+                </ul>
+                <form class="d-flex" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-danger" type="submit">Search</button>
+                </form>
+              </div>
+            </div>
+          </nav>
+    </header>
+    <main>
+        <div id="carouselExampleDark" class="carousel carousel-dark slide">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="3" aria-label="Slide 4"></button>
+            </div>
+            <div class="carousel-inner ">
+              <div class="carousel-item active" data-bs-interval="10000">
+                <img src="https://t4.ftcdn.net/jpg/05/57/40/37/240_F_557403798_uAPFHceeshWIA7dgMHadl0UfltzLBFnC.jpg" class="d-block w-100" alt="kfc food">
+                <div class="carousel-caption d-none d-md-block text-white">
+                  <h2>First slide label</h2>
+                  <p>Some representative placeholder content for the first slide.</p>
+                </div>
+              </div>
+              <div class="carousel-item" data-bs-interval="2000">
+                <img src="https://t3.ftcdn.net/jpg/02/79/98/36/240_F_279983688_0lmHGsZdFJEwwpS9HXVZq4HQpoQz0FMq.jpg " class="d-block w-100" alt="kfc food">
+                <div class="carousel-caption d-none d-md-block text-white">
+                  <h2>Second slide label</h2>
+                  <p>Some representative placeholder content for the second slide.</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="https://t4.ftcdn.net/jpg/02/60/97/59/240_F_260975988_oMwYBlnl0oacdQ6tyrS3RWZ7k1MybevF.jpg "class="d-block w-100" alt="kfc food">
+                <div class="carousel-caption d-none d-md-block text-white">
+                  <h2>Third slide label</h2>
+                  <p>Some representative placeholder content for the third slide.</p>
+                </div>
+              </div>
+              <div class="carousel-item active" data-bs-interval="10000">
+                <img src="https://t3.ftcdn.net/jpg/03/20/76/62/240_F_320766286_58RAkPKvd9rLJmNmCdama7NRfG7B8px4.jpg " class="d-block w-100" alt="kfc food">
+                <div class="carousel-caption d-none d-md-block text-white">
+                  <h2>First slide label</h2>
+                  <p>Some representative placeholder content for the first slide.</p>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+</body>
+</html>
+  
